@@ -176,8 +176,7 @@ sup {
 }
 
 .region.top.center,
-.region.bottom.center,
-.region.middle.center {
+.region.bottom.center {
   left: 50%;
   transform: translateX(-50%);
 }
@@ -209,11 +208,8 @@ sup {
 
 .region.third,
 .region.middle.center {
-  text-align: center;
-}
-
-.region.third {
   width: 100%;
+  text-align: center;
   transform: translateY(-50%);
 }
 
